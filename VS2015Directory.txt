@@ -1,0 +1,25 @@
+Visual Studio 2015 Directories
+
+Include
+
+$(OPENNI2_include64)
+$(opencv)\include
+$(opencv)\include\opencv
+$(opencv)\include\opencv2
+
+Library
+
+$(opencv)\x64\vc12\lib
+$(openni2_lib64)
+
+Additional dependencies
+
+opencv_ts300.lib
+opencv_ts300d.lib
+opencv_world300.lib
+opencv_world300d.lib
+OpenNI2.lib
+
+【1】Configuration Properties，C/C++，Gerenal，in Additiaonal Include Directories plus $(OPENNI2_INCLUDE64)
+【2】Configuration Properties，Linker，Gerenal，in Additiaonal Library Directories plus $(OPENNI2_LIB64)
+【3】Configuration Properties，Linker，Input，in Additiaonal Dependencies plus $(OPENNI2_LIB64)

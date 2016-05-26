@@ -15,8 +15,20 @@ Python 3.5 + PyWin32 3.5
 Kinect SDK 1.8
 
 Notes:
+<<<<<<< HEAD
 1. Working directory of Visual Studio 2015 can be found with
       right click current Project in Solution Explorer >> Properties >> Cofiguration Properties >> Debugging
     All Files in OpenNI2\Redist have to be copied into the working directory.
 	
 2. blablabla
+=======
+1. Programming with Visual Studio
+      1.1 Working directory of Visual Studio 2015 can be found with following steps:
+            right click current Project in Solution Explorer >> Properties >> Cofiguration Properties >> Debugging
+            All Files in OpenNI2\Redist have to be copied into the working directory.
+      1.2 The environment path has to be seperately configured.
+      1.3 In programming has to pay attention on the configuration of Include path, library path, etc.
+      1.4 be careful, when come error C2220, just go to 
+            Properties >> Cofiguration Properties >> c/c++ >> general
+            Then turn off "Treat Warnings As Errors"
+>>>>>>> origin/master
