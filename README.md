@@ -18,3 +18,5 @@ Notes:
 1. Working directory of Visual Studio 2015 can be found with
       right click current Project in Solution Explorer >> Properties >> Cofiguration Properties >> Debugging
     All Files in OpenNI2\Redist have to be copied into the working directory.
+	
+2. blablabla
