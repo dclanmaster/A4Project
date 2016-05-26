@@ -21,3 +21,6 @@ Notes:
             All Files in OpenNI2\Redist have to be copied into the working directory.
       1.2 The environment path has to be seperately configured.
       1.3 In programming has to pay attention on the configuration of Include path, library path, etc.
+      1.4 be careful, when come error C2220, just go to 
+            Properties >> Cofiguration Properties >> c/c++ >> general
+            Then turn off "Treat Warnings As Errors"
