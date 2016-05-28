@@ -20,7 +20,8 @@ Notes:
       right click current Project in Solution Explorer >> Properties >> Cofiguration Properties >> Debugging
     All Files in OpenNI2\Redist have to be copied into the working directory.
 	
-2. blablabla
+2. Installation of OpenNI+Nite+SensorKinect can be found in following link
+	http://fivedots.coe.psu.ac.th/~ad/kinect/index.html
 =======
 1. Programming with Visual Studio
       1.1 Working directory of Visual Studio 2015 can be found with following steps:
