@@ -1,0 +1,17 @@
+Linker-->General-->add. lib. dir.
+C:\Users\zou.AUT\Documents\Visual Studio 2015\Projects\
+
+Linker-->Input-->add. depend.
+libARd.lib
+libARgsub_lited.lib
+libARgsubd.lib
+libARMultid.lib
+libARvideod.lib
+libARvrmld.lib
+libAR.lib
+libARgsub.lib
+libARgsub_lite.lib
+libARgsubUtil.lib
+libARMulti.lib
+libARvideo.lib
+libARvrml.lib
