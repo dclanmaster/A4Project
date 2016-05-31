@@ -22,7 +22,9 @@ Notes:
 	
 2. Installation of OpenNI+Nite+SensorKinect can be found in following link
 	http://fivedots.coe.psu.ac.th/~ad/kinect/index.html
-	use x86, don't use x64, because the old version ARToolKit is x86. Using x64 can cause compile problem
+	use x86, don't use x64, because the old version ARToolKit is x86. Using x64 can cause compile problem.
+	And before installation, don't forget to delete all application and root folder of openNI, Kinect, PrimeSense and Nite.
+	The Installtion of openNI+Nite is seperate from ARToolKit.
 3. openVRML version: OpenVRML-0.14.3-win32.zip (for now)
 4. ARTK version: ARToolKit-2.72.1-bin-win32.zip (for now)
 5. msvcp71d.dll, msvcr71d.dll have to be downloaded and copy them to ARToolKit/bin, windows/system32 and windows/sysWOW64
