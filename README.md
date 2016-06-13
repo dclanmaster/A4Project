@@ -28,4 +28,5 @@ Notes:
 3. openVRML version: OpenVRML-0.14.3-win32.zip (for now)
 4. ARTK version: ARToolKit-2.72.1-bin-win32.zip (for now)
 5. msvcp71d.dll, msvcr71d.dll have to be downloaded and copy them to ARToolKit/bin, windows/system32 and windows/sysWOW64
+6. Every new project, Data, lib & wrl folders have to be copied and placed into the project folder with header and cpp files
 
