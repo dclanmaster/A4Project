@@ -55,13 +55,13 @@
 \************************************************************************/
 #ifdef OGL_GRAPHICS
 
-#include <iostream.h>
+#include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
 #include <GL/glut.h>
 #include "graphics.H"
 #include "polytope.H"
-
+using namespace std;
 const GLfloat sph_specular[] = {0.7, 0.4, 0.7, 1.0};
 const GLfloat sph_diffuse[] = {0.3, 0.0, 0.3, 1.0};
 const GLfloat sph_shininess[] = {50.0};

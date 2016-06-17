@@ -64,10 +64,10 @@ Description: This file implements the member functions of the classes
 
 
 
-#include <iostream.h>
+#include <iostream>
 #include <string.h>     //for memset and memcpy.
 #include "VInternal.H"
-
+using namespace std;
 const int DEFAULT_SIZE=10; //some arbitrary default size for "vc_objects" array.
 
 //error codes returned by VCollide API.

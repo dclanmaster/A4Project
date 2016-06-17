@@ -62,11 +62,11 @@ Description: This file implements the member functions of the class NBody.
 
 \************************************************************************/
 
-#include <iostream.h>
+#include <iostream>
 #include <math.h>
 #include "obb.H"
 #include "NBody.H"
-
+using namespace std;
 const int REVERSE  = 1;//whether the direction of movement of the interval
 const int FORWARD  = 2;//along the list is forward (FORWARD), reverse (REVERSE)
 const int NOCHANGE = 3;//or there is no movement at all (NOCHANGE).

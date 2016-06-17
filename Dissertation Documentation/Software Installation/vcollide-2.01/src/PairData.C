@@ -64,12 +64,12 @@ Description: This file defines the member functions of the
 \************************************************************************/
 
 
-#include <iostream.h>
+#include <iostream>
 #include <stdio.h>
 #include "PairData.H"
 
 #include "RAPID.H"  // for struct collision_pair
-
+using namespace std;
 const int PAIRDATA_DEFAULT_SIZE=10;
 
 

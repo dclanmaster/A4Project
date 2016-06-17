@@ -57,11 +57,11 @@
 #ifndef POLYTOPE_H
 #define POLYTOPE_H
 
-#include <iostream.h>
+#include <iostream>
 #include "VCollide.H"
 #include "vector.H"
 #include "triangle.H"
-
+using namespace std;
 class Polytope{
 public:
   

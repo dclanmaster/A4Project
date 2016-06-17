@@ -54,7 +54,7 @@
 
 \************************************************************************/
 
-#include <iostream.h>
+#include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -63,7 +63,7 @@
 #endif
 
 #include "polytope.H"
-
+using namespace std;
 Polytope::Polytope(char *filename)
 {
   

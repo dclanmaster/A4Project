@@ -53,10 +53,12 @@
   EMail:    geom@cs.unc.edu
 
 \************************************************************************/
-#include <iostream.h>
+#include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
 #include "VCollide.H"
+
+using namespace std;
 
 const int NO_OF_OBJECTS=20;      //number of instances
 const int SIMULATION_STEPS=100;  //number of steps in the simulation.

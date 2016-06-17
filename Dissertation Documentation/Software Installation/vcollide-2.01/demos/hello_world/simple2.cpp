@@ -54,10 +54,10 @@
 
 \************************************************************************/
 
-#include <iostream.h>
+#include <iostream>
 #include <stdlib.h>
 #include "VCollide.H"
-
+using namespace std;
 int main(int argc, char *argv[])
 {
   

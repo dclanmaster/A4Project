@@ -53,7 +53,7 @@
   EMail:    geom@cs.unc.edu
 
 \************************************************************************/
-#include <iostream.h>
+#include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -62,7 +62,7 @@
 #endif
 
 #include "polytope.H"
-
+using namespace std;
 Polytope::Polytope() : id(0), num_tris(0), tris(NULL)
 {
 }

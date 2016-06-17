@@ -54,10 +54,10 @@
 
 \************************************************************************/
 
-#include <iostream.h>
+#include <iostream>
 #include <stdlib.h>
 #include "VCollide.H"
-
+using namespace std;
 int main(int argc, char *argv[])
 {
   
@@ -178,6 +178,7 @@ int main(int argc, char *argv[])
             <<report.obj1ID(j) <<" and "<< report.obj2ID(j) <<"\n";
       
     }
-
-  return 0;
+  int a;
+  cin >> a;
+  //return 0;
 }
