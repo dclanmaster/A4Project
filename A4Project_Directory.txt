@@ -1,0 +1,41 @@
+﻿Visual Studio 2015 Directories for A4Project
+
+1. Include
+$(OPEN_NI_INCLUDE)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\AR
+
+2. Library
+$(OPEN_NI_LIB)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib
+C:\Users\zou.AUT\Documents\Visual Studio 2015\Projects\(Project_Name)\(Project_Name)\lib
+
+3. Additional Include
+$(OPEN_NI_INCLUDE)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\GL
+
+4. Additional Library
+$(OPEN_NI_LIB)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib
+C:\Users\zou.AUT\Documents\Visual Studio 2015\Projects\(Project_Name)\(Project_Name)\lib
+
+
+5. Additional Dependencies
+openNI.lib
+glut32.lib
+libARd.lib
+libARgsub_lited.lib
+libARgsubd.lib
+libARMultid.lib
+libARvideod.lib
+libARvrmld.lib
+libAR.lib
+libARgsub.lib
+libARgsub_lite.lib
+libARgsubUtil.lib
+libARMulti.lib
+libARvideo.lib
+libARvrml.lib
+
+Linker/Advanced: Target Machine: MachineX86/(MACHINE:X86)
+Linker/Advanced: Image Has Safe Exception Handlers: No
