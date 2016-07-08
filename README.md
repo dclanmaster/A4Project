@@ -30,4 +30,5 @@ Notes:
 5. msvcp71d.dll, msvcr71d.dll have to be downloaded and copy them to ARToolKit/bin, windows/system32 and windows/sysWOW64
 6. Every new project, Data, lib & wrl folders have to be copied and placed into the project folder with header and cpp files
 7. Use code from c file, sometime can change the c file directly to cpp file by changing the extension name
+8. All programming environment to win7 with x86 or 32, don't use x64
 
