@@ -5,6 +5,7 @@
 $(OPEN_NI_INCLUDE)
 C:\openCV\opencv\build\include\opencv
 C:\openCV\opencv\build\include\opencv2
+C:\bullet-2.82-r2704\bullet-2.82-r2704\bullet_pack\include
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\AR
 
@@ -13,6 +14,7 @@ C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\AR
 $(OPEN_NI_LIB)
 C:\openCV\opencv\build\lib\Release
 (optional)   C:\openCV\opencv\build\lib\Debug
+C:\bullet-2.82-r2704\bullet-2.82-r2704\bullet_pack\lib
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib
 C:\Users\zou.AUT\Documents\Visual Studio 2015\Projects\(Project_Name)\(Project_Name)\lib
 
@@ -21,12 +23,14 @@ C:\Users\zou.AUT\Documents\Visual Studio 2015\Projects\(Project_Name)\(Project_N
 C:\openCV\opencv\build\bin\Release
 (optional)   C:\openCV\opencv\build\bin\Debug
 
+
 		4. Additional Include
 
 $(OPEN_NI_INCLUDE)
 C:\openCV\opencv\build\include\opencv
 C:\openCV\opencv\build\include\opencv2
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\GL
+C:\bullet-2.82-r2704\bullet-2.82-r2704\bullet_pack\include
 
 		5. Additional Library
 
@@ -34,6 +38,7 @@ $(OPEN_NI_LIB)
 C:\openCV\opencv\build\lib\Release
 (optional)   C:\openCV\opencv\build\lib\Debug
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib
+C:\bullet-2.82-r2704\bullet-2.82-r2704\bullet_pack\lib
 C:\Users\zou.AUT\Documents\Visual Studio 2015\Projects\(Project_Name)\(Project_Name)\lib
 
 
@@ -58,6 +63,19 @@ msvcrt.lib
 msvcmrt.lib
 openNI.lib
 glut32.lib
+
+			release
+LinearMath_vs2010.lib
+BulletCollision_vs2010.lib
+BulletDynamics_vs2010.lib
+BulletSoftBody_vs2010.lib
+			debug
+LinearMath_vs2010_debug.lib
+BulletCollision_vs2010_debug.lib
+BulletDynamics_vs2010_debug.lib
+BulletSoftBody_vs2010_debug.lib
+
+
 libARd.lib
 libARgsub_lited.lib
 libARgsubd.lib
