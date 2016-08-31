@@ -92,3 +92,4 @@ libARvrml.lib
 	Linker/General: Use Library Dependency Inputs: Yes
 	Linker/Advanced: Target Machine: MachineX86/(MACHINE:X86)
 	Linker/Advanced: Image Has Safe Exception Handlers: No
+	C/C++/Code Generation/Runtime Library: Multi-threaded(/MT) -> because of bullet3
