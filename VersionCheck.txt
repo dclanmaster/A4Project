@@ -1,0 +1,9 @@
+				Check Version
+
+					openGL
+printf("OpenGL Version : %s\n", glGetString(GL_VERSION));
+printf("OpenGL Vendor : %s\n", glGetString(GL_VENDOR));
+printf("OpenGL Renderer : %s\n", glGetString(GL_RENDERER));
+
+					openCV
+printf("OpenCV: %s", cv::getBuildInformation().c_str());
