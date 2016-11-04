@@ -1,9 +1,12 @@
 				Check Version
 
-					openGL
+					openGL 4.2.0
 printf("OpenGL Version : %s\n", glGetString(GL_VERSION));
 printf("OpenGL Vendor : %s\n", glGetString(GL_VENDOR));
 printf("OpenGL Renderer : %s\n", glGetString(GL_RENDERER));
 
 					openCV
 printf("OpenCV: %s", cv::getBuildInformation().c_str());
+
+ARToolKit 2.72.1, Bullet 3 Physics Engine 2.82, 
+OpenCV 3.0.0, OpenGL 4.2.0, OpenNI 1.5.4.0, Visual Studio 2015
