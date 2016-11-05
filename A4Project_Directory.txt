@@ -158,6 +158,7 @@ libARgsub.lib
 libARgsub_lite.lib
 libARgsubUtil.lib
 libARMulti.lib
+libARMultid.lib
 libARvideo.lib
 libARvrml.lib
 
