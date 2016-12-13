@@ -160,10 +160,17 @@ libARvideod.lib
 libARvrml.lib
 libARvrmld.lib
 libARgsubUtil.lib
+<<<<<<< HEAD
 libARgsubUtild.lib
 
 
 
+=======
+libARMulti.lib
+libARMultid.lib
+libARvideo.lib
+libARvrml.lib
+>>>>>>> origin/master
 
 	Linker/General: Use Library Dependency Inputs: Yes
 	Linker/Advanced: Target Machine: MachineX86/(MACHINE:X86)
