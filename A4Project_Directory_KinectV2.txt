@@ -1,20 +1,20 @@
-﻿//****************************************************
+//****************************************************
 //**  Visual Studio 2015 Directories for A4Project	**
 //****************************************************
 		1. Include
 
-$(OPEN_NI_INCLUDE)
+$(KINECTSDK20_DIR)\inc
 C:\opencv\build\install\include
-C:\opencv\build\install\include\opencv
-C:\opencv\build\install\include\opencv2 
+$(OPEN_NI_INCLUDE) 
 C:\bullet3\src
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\AR
 
 		2. Library
 
-$(OPEN_NI_LIB)
+$(KINECTSDK20_DIR)\lib\x86
 C:\opencv\build\install\x86\vc14\lib
+$(OPEN_NI_LIB)
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib
 C:\ARToolKit\lib
 
@@ -25,10 +25,7 @@ C:\ARToolKit\lib
 
 		4. Additional Include
 
-$(OPEN_NI_INCLUDE)
-C:\opencv\build\install\include
-C:\opencv\build\install\include\opencv
-C:\opencv\build\install\include\opencv2 
+$(OPEN_NI_INCLUDE) 
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\GL
 C:\bullet3\src
 
@@ -127,12 +124,26 @@ opencv_ximgproc310.lib
 opencv_xobjdetect310.lib
 opencv_xphoto310.lib
 
-msvcrt.lib
-msvcmrt.lib
+//msvcrt.lib
+//msvcmrt.lib
+kinect20.lib
+kernel32.lib
+user32.lib
+gdi32.lib
+winspool.lib
+comdlg32.lib
+advapi32.lib
+shell32.lib
+ole32.lib
+oleaut32.lib
+uuid.lib
+odbc32.lib
+odbccp32.lib
+
 openNI.lib
 glut32.lib
-freeglut.lib
-freeglut_static.lib
+//freeglut.lib
+//freeglut_static.lib
 
 /*			release
 LinearMath_vs2010.lib
@@ -170,4 +181,5 @@ libARgsubUtild.lib
 	Linker/Advanced: Image Has Safe Exception Handlers: No
 	C/C++/Code Generation/Runtime Library: Multi-threaded(/MT) -> because of bullet3
 	Data and Wrl folders for AR have to be copied to project
+	C/C++/Preprocessor/Preprocessor Definitions: add _CRT_SECURE_NO_WARNINGS
 	/*@sa = see also*/
