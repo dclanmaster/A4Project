@@ -1,3 +1,4 @@
 ARToolkit5 for win10
 
 1. must build from source
+2. QuickTime SDK: https://developer.apple.com/download/more/
